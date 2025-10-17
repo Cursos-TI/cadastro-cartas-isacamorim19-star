@@ -5,15 +5,13 @@
 // Objetivo: No nível novato você deve criar as cartas representando as cidades 
 //           utilizando scanf para entrada de dados e printf para exibir as informações.
 
-int main() {
+
     // Área para definição das variáveis para armazenar as propriedades das cidades
 
     // Área para entrada de dados
 
     // Área para exibição dos dados da cidade
 
-    return 0;
-}
 
 int main() {
     // Carta 1 - São Paulo
@@ -58,10 +56,11 @@ int main() {
     printf("Densidade Populacional: %.2f hab/km²\n", densidade_populacional2);
     printf("PIB per Capita: %.8f\n", pib_per_capita2);
 
+    // Comparaçoes entre os atributos
     if(populacao1> populacao2){;
-        pritf("Carta 1 Venceu!/n");
+        printf("Carta 1 Venceu!\n");
 }else{
-        printf("Carta 2 Venceu!/n");
+        printf("Carta 2 Venceu!\n");
 }
     return 0;
 }
